@@ -6,8 +6,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
@@ -17,8 +17,6 @@ public class NavigationTest {
     public static final String mainMenuLocator = ".//ul[@id='box-apps-menu']/li[@id='app-']";
     public static final String mainSubMenuLocator = ".//ul[@id='box-apps-menu']/li[@id='app-']/ul/li";
     public static final String pageHeaderLocator = ".//h1";
-    public static final String adminName = "admin";
-    public static final String adminPass = "admin";
 
     @Before
     public void startChromeDriver() {
@@ -29,45 +27,47 @@ public class NavigationTest {
     @After
     public void stopChromeDriver(){
         driver.quit();
-
     }
 
     @Test
     public void test(){
-        WebElement pageHeaderWebElement;
         driver.get(siteUrl);
-        loginAsUser(adminName, adminPass);
-        int numberOfMenuItems = driver.findElements(By.xpath(mainMenuLocator)).size();
+        loginAsUser("admin", "admin");
 
+        int numberOfMenuItems = driver.findElements(By.xpath(mainMenuLocator)).size();
         int countMenuItems = 0;
         while (countMenuItems < numberOfMenuItems) {
             driver.findElements(By.xpath(mainMenuLocator)).get(countMenuItems).click();
-            int numberOfSubMenuItems = driver.findElements(By.xpath(mainSubMenuLocator)).size();
 
+            int numberOfSubMenuItems = driver.findElements(By.xpath(mainSubMenuLocator)).size();
             if (numberOfSubMenuItems == 0) {
-                pageHeaderWebElement = driver.findElement(By.xpath(pageHeaderLocator));
-                Assert.assertTrue(pageHeaderWebElement != null);
+                Assert.assertTrue(isElementPresent(By.xpath(pageHeaderLocator)));
             }
             else {
                 int countSubMenuItems = 0;
                 while (countSubMenuItems < numberOfSubMenuItems) {
                     driver.findElements(By.xpath(mainSubMenuLocator)).get(countSubMenuItems).click();
-                    pageHeaderWebElement = driver.findElement(By.xpath(pageHeaderLocator));
-                    Assert.assertTrue(pageHeaderWebElement != null);
+                    Assert.assertTrue(isElementPresent(By.xpath(pageHeaderLocator)));
                     countSubMenuItems++;
                 }
             }
             countMenuItems++;
-
         }
   }
 
+    private boolean isElementPresent(By locator) {
+        try {
+            driver.findElement(locator);
+            return true;
+        } catch (NoSuchElementException ex) {
+            return false;
+        }
+    }
+
+
     public void loginAsUser(String name, String pass){
-        WebElement userName = driver.findElement(By.name("username"));
-        userName.sendKeys(name);
-        WebElement userPass = driver.findElement(By.name("password"));
-        userPass.sendKeys(pass);
-        WebElement loginButton = driver.findElement(By.name("login"));
-        loginButton.click();
+        driver.findElement(By.name("username")).sendKeys(name);
+        driver.findElement(By.name("password")).sendKeys(pass);
+        driver.findElement(By.name("login")).click();
     }
 }
