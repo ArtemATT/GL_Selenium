@@ -12,11 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class NavigationTest {
-    public WebDriver driver;
-    public static final String siteUrl = "http://localhost/litecart/admin";
-    public static final String mainMenuLocator = ".//ul[@id='box-apps-menu']/li[@id='app-']";
-    public static final String mainSubMenuLocator = ".//ul[@id='box-apps-menu']/li[@id='app-']/ul/li";
-    public static final String pageHeaderLocator = ".//h1";
+    WebDriver driver;
+    private static final String siteUrl = "http://localhost/litecart/admin";
+    private static final String mainMenuLocator = ".//ul[@id='box-apps-menu']/li[@id='app-']";
+    private static final String mainSubMenuLocator = ".//ul[@id='box-apps-menu']/li[@id='app-']/ul/li";
+    private static final String pageHeaderLocator = ".//h1";
 
     @Before
     public void startChromeDriver() {
