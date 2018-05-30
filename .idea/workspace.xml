@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="329083d3-d165-43d0-bfb5-44f72b61b1eb" name="Default" comment="Task 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/selenium/lesson2/NavigationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/selenium/lesson2/NavigationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/selenium/lesson3/PropertyVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/selenium/lesson3/PropertyVerification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/lesson2/NavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/lesson2/NavigationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,23 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateNewItem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/CreateNewItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddRemoveFromCart.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddRemoveFromCart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="510">
+              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -352,6 +338,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -396,23 +384,12 @@
               <item name="Codelines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gl.training.selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codelines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -622,34 +599,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 35m 34s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 14m 04s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 37m 52s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 14m 27s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 38m 06s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 16m 32s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 42m 01s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 23m 59s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 43m 45s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 27m 00s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 44m 16s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 27m 39s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 44m 52s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 34m 21s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 47m 11s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 38m 00s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 48m 30s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 39m 35s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.29 at 19h 49m 47s.xml">
+    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 40m 18s.xml">
       <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -673,21 +650,21 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32928178" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48729283" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32928178" />
       <window_info active="true" anchor="bottom" x="0" y="23" width="1600" height="837" id="Terminal" order="8" type="WINDOWED" visible="true" weight="0.3679558" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2176039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2200489" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32969153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info x="-320" y="-1069" width="1920" height="1057" id="Debug" order="7" type="WINDOWED" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3298887" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -705,7 +682,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="97" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -758,13 +735,30 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/CreateNewItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson1/SimpleTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="22" column="9" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,9 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="92" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,9 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,9 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="22" column="9" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="92" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,6 +927,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/CreateNewItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -957,18 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/CreateNewItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="510">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
