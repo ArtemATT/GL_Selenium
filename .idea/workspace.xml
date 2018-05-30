@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="329083d3-d165-43d0-bfb5-44f72b61b1eb" name="Default" comment="Task 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddRemoveFromCart.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java">
+      <file leaf-file-name="LinksInNewWindows.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson5/LinksInNewWindows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="449">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -322,6 +321,7 @@
         <option value="$PROJECT_DIR$/src/test/java/selenium/lesson4/helpMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/lesson4/CreateNewItem.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/lesson5/LinksInNewWindows.java" />
       </list>
     </option>
   </component>
@@ -384,6 +384,24 @@
               <item name="Codelines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gl.training.selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codelines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gl.training.selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codelines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -411,7 +429,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddRemoveFromCart.addRemoveFromCart">
+  <component name="RunManager" selected="JUnit.LinksInNewWindows.testLinksInNewWindows">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -484,20 +502,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CreateNewItem.createNewItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinksInNewWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gl.training.selenium_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.lesson4.*" />
+          <option name="PATTERN" value="selenium.lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium.lesson4" />
-      <option name="MAIN_CLASS_NAME" value="selenium.lesson4.CreateNewItem" />
-      <option name="METHOD_NAME" value="createNewItem" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="selenium.lesson5" />
+      <option name="MAIN_CLASS_NAME" value="selenium.lesson5.LinksInNewWindows" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -507,20 +525,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PropertyVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinksInNewWindows.testLinksInNewWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gl.training.selenium_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.lesson3.*" />
+          <option name="PATTERN" value="selenium.lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium.lesson3" />
-      <option name="MAIN_CLASS_NAME" value="selenium.lesson3.PropertyVerification" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="selenium.lesson5" />
+      <option name="MAIN_CLASS_NAME" value="selenium.lesson5.LinksInNewWindows" />
+      <option name="METHOD_NAME" value="testLinksInNewWindows" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -569,19 +587,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PropertyVerification" />
       <item itemvalue="JUnit.CreateNewItem" />
-      <item itemvalue="JUnit.CreateNewItem.createNewItem" />
       <item itemvalue="JUnit.AddRemoveFromCart" />
       <item itemvalue="JUnit.AddRemoveFromCart.addRemoveFromCart" />
+      <item itemvalue="JUnit.LinksInNewWindows" />
+      <item itemvalue="JUnit.LinksInNewWindows.testLinksInNewWindows" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinksInNewWindows.testLinksInNewWindows" />
+        <item itemvalue="JUnit.LinksInNewWindows" />
         <item itemvalue="JUnit.AddRemoveFromCart.addRemoveFromCart" />
         <item itemvalue="JUnit.AddRemoveFromCart" />
         <item itemvalue="JUnit.CreateNewItem" />
-        <item itemvalue="JUnit.CreateNewItem.createNewItem" />
-        <item itemvalue="JUnit.PropertyVerification" />
       </list>
     </recent_temporary>
   </component>
@@ -599,35 +617,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 14m 04s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows - 2018.05.30 at 19h 00m 42s.xml">
+      <configuration name="LinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 14m 27s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows - 2018.05.30 at 19h 00m 56s.xml">
+      <configuration name="LinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 16m 32s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows - 2018.05.30 at 19h 01m 55s.xml">
+      <configuration name="LinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 23m 59s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows - 2018.05.30 at 19h 03m 39s.xml">
+      <configuration name="LinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 27m 00s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows - 2018.05.30 at 19h 05m 26s.xml">
+      <configuration name="LinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 27m 39s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows - 2018.05.30 at 19h 11m 49s.xml">
+      <configuration name="LinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 34m 21s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows_testLinksInNewWindows - 2018.05.30 at 19h 12m 31s.xml">
+      <configuration name="LinksInNewWindows.testLinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 38m 00s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows_testLinksInNewWindows - 2018.05.30 at 19h 16m 28s.xml">
+      <configuration name="LinksInNewWindows.testLinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 39m 35s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows_testLinksInNewWindows - 2018.05.30 at 19h 25m 26s.xml">
+      <configuration name="LinksInNewWindows.testLinksInNewWindows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddRemoveFromCart_addRemoveFromCart - 2018.05.30 at 15h 40m 18s.xml">
-      <configuration name="AddRemoveFromCart.addRemoveFromCart" configurationId="JUnit" />
+    <history-entry file="LinksInNewWindows_testLinksInNewWindows - 2018.05.30 at 19h 30m 24s.xml">
+      <configuration name="LinksInNewWindows.testLinksInNewWindows" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -641,6 +659,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-478" width="1696" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32928178" />
@@ -652,7 +671,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48729283" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" x="0" y="23" width="1600" height="837" id="Terminal" order="8" type="WINDOWED" visible="true" weight="0.3679558" />
+      <window_info anchor="bottom" x="0" y="23" width="1600" height="837" id="Terminal" order="8" type="WINDOWED" weight="0.3679558" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2200489" />
@@ -682,11 +701,26 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="100" />
+      <option name="time" value="113" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>driver.getWindowHandle()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>.//i[@class='fa fa-external-link'][&quot; + String.valueOf(i+1) + &quot;]&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;.//i[@class='fa fa-external-link'][&quot; + String.valueOf(i+1) + &quot;]&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>driver.findElement(By.xpath(&quot;.//span[@class='quantity']&quot;)).getText()</expression-string>
         <language-id>JAVA</language-id>
@@ -714,21 +748,6 @@
       </expression>
       <expression>
         <expression-string>driver.findElement(By.xpath(&quot;.//span[@class='quantity']/text()&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;.//span[@class='quantity']&quot;)).getCssValue(&quot;innerText&quot;).length()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;.//a/*[@class='quantity']&quot;)).getCssValue(&quot;innerText&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;.//a/*[@class='quantity']&quot;)).getCssValue(&quot;textContent&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -856,16 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson2/NavigationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -929,8 +938,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/CreateNewItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="435">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson2/NavigationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,10 +973,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson4/AddRemoveFromCart.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/lesson5/LinksInNewWindows.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="449">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
